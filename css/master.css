@@ -348,7 +348,9 @@ body {
     }
 }
 
-
+.landing {
+    background-image: url("../images/landing/4.jpg");
+}
 
 
 .landing .text {
