@@ -13,7 +13,7 @@ let imgesList = [
   "10.jpg",
 ];
 
-pageLanding.style.backgroundImage = `url(/images/landing/${
+pageLanding.style.backgroundImage = `url(./images/landing/${
   imgesList[Math.floor(Math.random() * imgesList.length)]
 })`;
 
