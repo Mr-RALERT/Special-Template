@@ -13,7 +13,7 @@ let imgesList = [
   "10.jpg",
 ];
 
-pageLanding.style.backgroundImage = `url(../images/landing/${
+pageLanding.style.backgroundImage = `url(https://github.com/Mr-RALERT/Special-Template/tree/main/images/landing/${
   imgesList[Math.floor(Math.random() * imgesList.length)]
 })`;
 
@@ -86,7 +86,7 @@ function randomeBackground() {
   if (backgroundOption == true) {
     backgroundIntrval = setInterval(() => {
       let randomIndex = Math.floor(Math.random() * imgesList.length);
-      pageLanding.style.backgroundImage =  `url(../images/landing/${imgesList[randomIndex]})`;;
+      pageLanding.style.backgroundImage =  `url(https://github.com/Mr-RALERT/Special-Template/tree/main/images/landing/${imgesList[randomIndex]})`;;
     }, 3000);
   }
 }
