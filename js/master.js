@@ -87,7 +87,7 @@ function randomeBackground() {
     backgroundIntrval = setInterval(() => {
       let randomIndex = Math.floor(Math.random() * imgesList.length);
       url = `../images/landing/${imgesList[randomIndex]}`;
-      pageLanding.style.backgroundImage = `url(${url})`;
+      pageLanding.style.cssText = `background-image : url(${url})`;
     }, 3000);
   }
 }
